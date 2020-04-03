@@ -7,7 +7,9 @@ A project by [Trackmycouriers - Parcel tracking](https://www.trackmycouriers.com
 
 - Parcel status is usually updated daily and sometimes more frequently. So it's imperative to either get the API status on domand or store in db and run a cron job. 
 
-- 
+- When a customer wants to track the status of their parcel, you can request results on the go. This is a more safe approach but takes up more resources.
+
+- Also for better UX to provide live updates in push notifications, email notifications. You need to get status update hook or cron job approach.
 
 ## For who?
 
